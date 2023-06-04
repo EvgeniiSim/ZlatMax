@@ -67,7 +67,7 @@ const cardsData = [
         producer: 'АиР Все',
         img: 'images/knifes/four/nozh-duplet-2-s-formovannymi-nozhnami-damask-zdi-1016-stabilizirovannaya-karelskaya-bereza-latun-foto-01-min.jpg',
         size: 335,
-        source:'product-7.html'
+        source:'product-4.html'
     },
     {
         id:8,
