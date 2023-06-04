@@ -1,6 +1,6 @@
 const domElements={results:document.querySelector("#results"),search:{input:document.querySelector("#search-input"),button:document.querySelector("#search-button")},filter:{rating:document.querySelectorAll("#ratingFilter"),producer:document.querySelectorAll("#filter-producer"),price:document.querySelectorAll(".filterPrice"),size:document.querySelectorAll(".filterSize")}};function generateCards(r){const i=[];for(let e=0;e<r.length;e++){var n=r[e].rating,s=parseInt(n[0]);let t=[];for(let e=0;e<s;e++)t.push('<img src="images/knife-card/Star 3star.svg" alt="star">');i.push(`<div class="goods__cards-card knife">
         <div class="knife__main">
-            <a href='${r.[e].source}' class="knife__pic">
+            <a href='${r[e].source}' class="knife__pic">
                 <span class="knife__pic-wrap">
                     <img src="${r[e].img}" alt="knife">
                 </span>
